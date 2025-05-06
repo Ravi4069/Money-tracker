@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .user_input {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 18px;
+    background-color: antiquewhite;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .user_input label {
+    margin-right: 5px;
+  }
+  
+  .user_input input,
+  .user_input select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    color: black;
+    background-color: lightgreen;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: lightskyblue;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+    background-color: #e0f7fa;
+  }
+  
